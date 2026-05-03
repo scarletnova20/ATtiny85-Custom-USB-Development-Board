@@ -1,0 +1,27 @@
+# KiCad generated files
+*.kicad_prl
+fp-info-cache
+*-backups/
+
+# Build artefacts
+firmware/*.o
+firmware/*.elf
+firmware/*.hex
+firmware/*.map
+firmware/*.lst
+firmware/usbdrv/*.o
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+.env/
