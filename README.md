@@ -4,7 +4,7 @@ A custom PCB design and firmware for an **ATtiny85-based USB development board**
 
 ---
 
-## 📐 Schematic Overview
+##  Schematic Overview
 
 ![Schematic Diagram](docs/schematic.png)
 
@@ -38,7 +38,7 @@ ATtiny85 (QFN-20)
 
 ---
 
-## 🔧 Project Structure
+##  Project Structure
 
 ```
 ATtiny85_USB/
@@ -65,7 +65,7 @@ ATtiny85_USB/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -122,7 +122,7 @@ Configure the ATtiny85 to use the 16.5 MHz PLL clock:
 make fuse
 ```
 
-> ⚠️ **Warning:** Incorrect fuse settings can brick the chip. Double-check before running.
+>  **Warning:** Incorrect fuse settings can brick the chip. Double-check before running.
 
 ### 4. Flash the firmware
 
@@ -145,7 +145,7 @@ python host_led_control.py status   # read LED state
 
 ---
 
-## 🔌 USB Protocol
+##  USB Protocol
 
 The device uses **USB HID vendor requests** (no custom driver needed):
 
@@ -160,7 +160,7 @@ USB identifiers (shared V-USB free-use IDs):
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **GNU General Public License v2.0** — see the [LICENSE](LICENSE) file for details.
 
