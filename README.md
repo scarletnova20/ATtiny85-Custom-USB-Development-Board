@@ -6,6 +6,8 @@ A custom PCB design and firmware for an **ATtiny85-based USB development board**
 
 ## 📐 Schematic Overview
 
+![Schematic Diagram](docs/schematic.png)
+
 | Component | Value | Purpose |
 |-----------|-------|---------|
 | **U1** | ATtiny85-20M (QFN-20) | Microcontroller — 8 kB Flash, 512 B SRAM |
@@ -40,6 +42,8 @@ ATtiny85 (QFN-20)
 
 ```
 ATtiny85_USB/
+├── docs/
+│   └── schematic.png        # Rendered schematic diagram
 ├── firmware/
 │   ├── main.c              # USB LED controller firmware
 │   ├── usbconfig.h         # V-USB configuration for this board
@@ -55,6 +59,7 @@ ATtiny85_USB/
 ├── Attiny85_USB.kicad_sch   # KiCad schematic
 ├── Attiny85_USB.kicad_pcb   # KiCad PCB layout (WIP)
 ├── Attiny85_USB.kicad_pro   # KiCad project file
+├── LICENSE                  # GPL-2.0 (required by V-USB)
 └── README.md
 ```
 
@@ -156,6 +161,8 @@ USB identifiers (shared V-USB free-use IDs):
 ---
 
 ## 📄 License
+
+This project is licensed under the **GNU General Public License v2.0** — see the [LICENSE](LICENSE) file for details.
 
 - **Firmware** (V-USB): GNU GPL v2 (as required by the V-USB license)
 - **Hardware** (KiCad schematic/PCB): Open Hardware
